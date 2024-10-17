@@ -13,5 +13,5 @@ fs.writeFile('./data/newfile.txt', 'Contenido nuevo', (err)=>{
 
 fs.rename('.data/newfile.txt', './data/renamedfile.txt', (err)=>{
     if(err) throw err;
-    console.log(`Archivo renomnrado`);
+    console.log(`Archivo renombrado`);
 });
